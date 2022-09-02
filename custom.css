@@ -249,4 +249,11 @@ textarea{
 #about p {
     text-align: justify;
 }
+#wave-bg{
+    background: rgb(0,19,100);
+background: -moz-linear-gradient(0deg, rgba(0,19,100,1) 49%, rgba(254,253,251,1) 51%);
+background: -webkit-linear-gradient(0deg, rgba(0,19,100,1) 49%, rgba(254,253,251,1) 51%);
+background: linear-gradient(0deg, rgba(0,19,100,1) 49%, rgba(254,253,251,1) 51%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#001364",endColorstr="#fefdfb",GradientType=1);
+}
 
