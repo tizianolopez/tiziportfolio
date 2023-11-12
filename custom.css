@@ -38,9 +38,6 @@ body{
 
 }
 
-#site-wrapper {
-        overflow-x: hidden; /* This will be applied to the wrapper div */
-}
 #abt1 h3, #portfolio h2, #portfolio h4, #cnt1 h3, #cnt1 h2, .inside-card{
     font-family: 'Comfortaa', cursive;
 }
