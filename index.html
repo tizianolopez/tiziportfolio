@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="bootstrap-5.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="custom.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,20 +22,59 @@
 </head>
 
 <body>
+  <div id="site-wrapper">
 
     <!-- Encabezado -->
     <header class="tittle">
         <div>
             <h1 class="text-center">Tiziano López Alonso</h1>
-            <h3 class="text-center">Just me being me</h3>
+            <h3 class="text-center">Estudiante y emprendedor</h3>
         </div>
     </header>
 
-    <!-- Ondas divisoras (titulo-navbar) -->
-    <div id="wave-bg">
-        <img id="svg" src="img/layered-wave.svg" alt="">
-    </div>
 
+    <!-- Ondas divisoras (titulo-navbar) -->
+
+        <div class="waves">
+          <svg class="wave">
+            <use xlink:href="#wave-1"></use>
+          </svg>
+          <svg class="wave">
+            <use xlink:href="#wave-2"></use>
+          </svg>
+          <svg class="wave">
+            <use xlink:href="#wave-3"></use>
+          </svg>
+          <svg class="wave">
+            <use xlink:href="#wave-4"></use>
+          </svg>
+      </div>
+      <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <defs>
+            <symbol id="wave-1" viewBox="0 0 1440 320" preserveAspectRatio="none">
+                <title>Wave 1</title>
+                <path fill-opacity="1" d="M0,160L26.7,154.7C53.3,149,107,139,160,144C213.3,149,267,171,320,197.3C373.3,224,427,256,480,250.7C533.3,245,587,203,640,154.7C693.3,107,747,53,800,64C853.3,75,907,149,960,181.3C1013.3,213,1067,203,1120,202.7C1173.3,203,1227,213,1280,181.3C1333.3,149,1387,75,1413,37.3L1440,0L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path>
+            </symbol>
+            <symbol id="wave-2" viewBox="0 0 1440 320" preserveAspectRatio="none">
+                <title>Wave 2</title>
+                <path fill-opacity="1" d="M0,64L26.7,64C53.3,64,107,64,160,101.3C213.3,139,267,213,320,240C373.3,267,427,245,480,224C533.3,203,587,181,640,192C693.3,203,747,245,800,234.7C853.3,224,907,160,960,133.3C1013.3,107,1067,117,1120,138.7C1173.3,160,1227,192,1280,186.7C1333.3,181,1387,139,1413,117.3L1440,96L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path>
+            </symbol>
+            <symbol id="wave-3" viewBox="0 0 1440 320" preserveAspectRatio="none">
+                <title>Wave 3</title>
+                <path fill-opacity="1" d="128L26.7,106.7C53.3,85,107,43,160,58.7C213.3,75,267,149,320,154.7C373.3,160,427,96,480,64C533.3,32,587,32,640,48C693.3,64,747,96,800,122.7C853.3,149,907,171,960,149.3C1013.3,128,1067,64,1120,64C1173.3,64,1227,128,1280,144C1333.3,160,1387,128,1413,112L1440,96L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path>
+            </symbol>
+            <symbol id="wave-4" viewBox="0 0 1440 320" preserveAspectRatio="none">
+                <title>Wave 4</title>
+                <path fill-opacity="1" d="M0,192L26.7,202.7C53.3,213,107,235,160,224C213.3,213,267,171,320,133.3C373.3,96,427,64,480,69.3C533.3,75,587,117,640,133.3C693.3,149,747,139,800,154.7C853.3,171,907,213,960,234.7C1013.3,256,1067,256,1120,213.3C1173.3,171,1227,85,1280,80C1333.3,75,1387,149,1413,186.7L1440,224L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path>
+            </symbol>
+            <symbol id="wave-5" viewBox="0 0 1440 320" preserveAspectRatio="none">
+                <title>Wave 5</title>
+                <path fill-opacity="1" d="M0,160L26.7,144C53.3,128,107,96,160,101.3C213.3,107,267,149,320,165.3C373.3,181,427,171,480,154.7C533.3,139,587,117,640,106.7C693.3,96,747,96,800,128C853.3,160,907,224,960,234.7C1013.3,245,1067,203,1120,154.7C1173.3,107,1227,53,1280,42.7C1333.3,32,1387,64,1413,80L1440,96L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path>
+            </symbol>
+          </defs>
+      </svg>
+        
+   
     <!-- Sticky Navbar -->
     <nav class="navbar navbar-expand sticky-top" id="nav1">
         <div class="container-fluid">
@@ -61,7 +100,7 @@
             <div id="abt1" class="row d-flex align-items-center justify-content-around">
                 <div id="img1" class="col-md-6 mb-5 mb-md-0">
                     <div class="img-border">
-                        <img class="img-fluid d-flex justify-content-center" src="img/portrait.jpg"
+                        <img class="img-fluid d-flex justify-content-center blob-img" src="img/IMG_1068 (6).jpg"
                             alt="Tiziano López Alonso">
                     </div>
                 </div>
@@ -69,11 +108,21 @@
                     <div class="row">
                         <div class="col-1"></div>
                         <div class="col-10">
-                            <h3>Me llamo Tiziano, soy joven y emprendedor</h3>
-                            <p>Nacido en Argentina, pero viviendo en España. Dispongo de un conjunto muy particular de
-                                habilidades, habilidades
-                                que he adquirido a lo largo de una carrera muy larga. Entre las cuales está mi habilidad
-                                de liderazgo y habilidad para trabajar en equipo.
+                            <h3>Me llamo Tiziano, y te cuento mi historia</h3>
+                            <p>Nacido en <span id="arg">Argentina</span> y establecido en <span id="es">España</span>, 
+                                mi trayectoria como futbolista me brindó valiosas
+                                 lecciones sobre el trabajo en equipo y la cohesión grupal.
+                                  Una vez en España, reuní recursos para financiarme tanto 
+                                  mis estudios universitarios como mi formación en el desarrollo web. 
+                                  </p><p>
+                                  Con una sólida base en trabajo colaborativo y una pasión por la tecnología, estoy listo para enfrentar desafíos y crear soluciones innovadoras
+                        </p>
+                            <p> 📚 <b> Ingeniería Inofrmatica </b>en la Universidad de Barcelona. 
+                             </p>
+                             <p>
+                                💡 <b>Argbitrage.com</b> Founder & CEO<br>
+                                💡 <b>Allganize.com</b> Co founder <br>
+                               
                             </p>
                         </div>
                         <div class="col-1"></div>
@@ -98,93 +147,66 @@
     <!-- Portafolio -->
 
     <section id="portfolio">
-        <div class="container text-center text-white mb-5">
-            <h2>Portfolio</h2>
-            <h4>Chiquito pero poderoso</h4>
+        <div class="container text-center text-white margin">
+          <h2>Portfolio</h2>
+          <h4>Chiquito pero poderoso</h4>
         </div>
-
-
-
-        <!-- Tarjetas de allganize -->
-        <div id="all" class="container-md mx-auto d-flex justify-content-center">
-            <a class="card" target="_blank" href="https://tizianolopez.github.io/allganize/calendarjs.html">
-                <div class="inside-card">
-                    <h6>web app</h6>
-                    <h3>ALLGANIZE</h3>
-                    <div id="img-all" class="align-items-end justify-content-center d-flex img-fluid">
-                        <img class="img-cont" src="img/ALLGANIZE.png" alt="">
-                    </div>
-
-                </div>
-            </a>
-        </div>
-
-
-        <!-- Espacio entre Tarjetas -->
-        <div class="space"></div>
-
-        <!-- Trjeta de Icon PP -->
-        <div id="icon" class="container-md mx-auto d-flex justify-content-center">
-            <a class="card" target="_blank" href="https://tizianolopez.github.io/icons/">
-                <div class="inside-card">
-                    <h6>web page</h6>
-                    <h3>ICON PLAYER PICK</h3>
-                    <div id="img-icon" class="align-items-end justify-content-center d-flex"><img class="img-cont2"
-                            src="img/Icons.png" alt=""></div>
-
-                </div>
-            </a>
-        </div>
-
+      
         <!-- Carrusel de proyectos mixtos -->
-        <div id="carrousel" class="container-fluid">
-            <div class="container">
-                <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="false">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active ">
-                            <img src="img/carousel1.svg" class="d-block w-100" alt="Allganize landing page">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Allganize Landing Page</h5>
-                                <p>Página desde la cual se registran cuentas y se inica sesión a Allganize</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/carousel3.svg" class="d-block w-100" alt=" purple pricing panel">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Panel de Precios</h5>
-                                <p>Un panel de precios con diferentes planes, hecho con FlexBox</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/carousel2.svg" class="d-block w-100" alt="horarios colegio bautista">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Horarios de Bautista</h5>
-                                <p>La agenda de los horarios del cole de Bauti (lo hice al pedo)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+        <div class=" d-flex justify-content-center margin">
+          <div class="options flex-wrap">
+            <a class="option active" href="https://tizianolopez.github.io/allganize/calendarjs" style="--optionBackground:url(img/Allganized.png);">
+              <div class="shadow"></div>
+              <div class="label">
+                <div class="icon">
+                  <i class="fas fa-walking"></i>
                 </div>
-            </div>
+                <div class="info">
+                  <div class="main">Allganize</div>
+                  <div class="sub">Organiza tu vida</div>
+                </div>
+              </div>
+            </a>
+            <a class="option" href="comingSoon.html" style="--optionBackground:url(img/ARGBITRAGE.png);">
+              <div class="shadow"></div>
+              <div class="label">
+                <div class="icon">
+                  <i class="fas fa-snowflake"></i>
+                </div>
+                <div class="info">
+                  <div class="main">Argbitrage</div>
+                  <div class="sub">Maximiza tus ganancias</div>
+                </div>
+              </div>
+            </a>
+            <a class="option" href="https://tizianolopez.github.io/icons/" style="--optionBackground:url(img/Icons.png);">
+              <div class="shadow"></div>
+              <div class="label">
+                <div class="icon">
+                  <i class="fas fa-tree"></i>
+                </div>
+                <div class="info">
+                  <div class="main">Icon Player Pick</div>
+                  <div class="sub">Player pick de Bauti</div>
+                </div>
+              </div>
+            </a>
+            <a class="option" href="https://tizianolopez.github.io/tiziano/" style="--optionBackground:url(img/tizianoLanding.png);">
+              <div class="shadow"></div>
+              <div class="label">
+                <div class="icon">
+                  <i class="fas fa-tint"></i>
+                </div>
+                <div class="info">
+                  <div class="main">Tiziano Lopez</div>
+                  <div class="sub">Mi portafolio antiguo</div>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
-    </section>
+      </section>
+      
 
 
     <footer id="contact">
@@ -270,6 +292,33 @@
         integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
         crossorigin="anonymous"></script>
     <script src="bootstrap-5.2.0/js/bootstrap.min.js"></script>
+
+
+      <!-- JS de image selector -->
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $(".option").click(function(e) {
+      e.preventDefault();
+      if ($(this).hasClass("active")) {
+        var href = $(this).attr("href");
+        if (href && href !== "#") {
+          window.open(href, "_blank");
+        }
+      }
+    });
+
+    $(".option").removeClass("active");
+    $(".option:first").addClass("active");
+
+    $(".option").click(function() {
+      $(".option").removeClass("active");
+      $(this).addClass("active");
+    });
+  });
+</script>
+</div>
 </body>
 
 </html>
